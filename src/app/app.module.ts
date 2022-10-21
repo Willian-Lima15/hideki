@@ -9,6 +9,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatSnackBarModule} from '@angular/material/snack-bar'
+import { MatButtonModule } from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input'
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { MatCardModule } from '@angular/material/card';
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    MatSnackBarModule,
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

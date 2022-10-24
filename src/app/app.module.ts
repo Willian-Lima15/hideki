@@ -14,6 +14,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar'
 import { MatButtonModule } from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule,

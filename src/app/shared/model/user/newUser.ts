@@ -1,4 +1,4 @@
-export interface IUsurio {
+export interface newUser {
   id: string;
   email: string;
   senha: string;

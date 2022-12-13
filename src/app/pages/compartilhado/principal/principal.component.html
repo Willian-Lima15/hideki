@@ -1,13 +1,11 @@
-<!-- <p>
-  <mat-toolbar color="primary">
-    <span>Titulo</span>
-    <span class="espacamento-toolbar"></span>
-    <button mat-icon-button>
-      <mat-icon>logout</mat-icon>
-    </button>
-  </mat-toolbar>
-</p> -->
-
-<!-- <mat-card-content>
-  <router-outlet></router-outlet>
-</mat-card-content> -->
+<div class="container">
+  <h1>teste</h1>
+  <div class="bg">
+   <mat-form-field appearance="fill">
+    <mat-label>Choose an option</mat-label>
+    <mat-select >
+      <mat-option value="list.nome" *ngFor="let list of userList$|async">{{list.nome}}</mat-option>
+    </mat-select>
+   </mat-form-field>
+  </div>
+</div>

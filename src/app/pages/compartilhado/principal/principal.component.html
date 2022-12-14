@@ -1,11 +1,20 @@
 <div class="container">
   <h1>teste</h1>
   <div class="bg">
-   <mat-form-field appearance="fill">
-    <mat-label>Choose an option</mat-label>
-    <mat-select >
-      <mat-option value="list.nome" *ngFor="let list of userList$|async">{{list.nome}}</mat-option>
-    </mat-select>
-   </mat-form-field>
+    <mat-form-field>
+      <mat-label>Favorite food</mat-label>
+      <input
+        matInput
+        placeholder="Ex. Pizza"
+        value=""
+        [formControl]="userInput"
+      />
+    </mat-form-field>
+    <br />
+    <mat-card *ngFor="let list of userList$ | async" class="card">
+      <mat-card-content
+        >{{ list.nome }}<br />{{ list.sobrenome }}</mat-card-content
+      >
+    </mat-card>
   </div>
 </div>

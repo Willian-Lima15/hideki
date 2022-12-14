@@ -13,6 +13,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar'
 import { MatButtonModule } from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatListModule} from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeModule } from './pages/home/home.module';
@@ -38,6 +39,7 @@ import { HomeModule } from './pages/home/home.module';
     MatInputModule,
     BrowserAnimationsModule,
     MatSelectModule,
+    MatListModule,
     HomeModule
   ],
   providers: [],

@@ -11,10 +11,6 @@
       />
     </mat-form-field>
     <br />
-    <mat-card *ngFor="let list of userList$ | async" class="card">
-      <mat-card-content
-        >{{ list.nome }}<br />{{ list.sobrenome }}</mat-card-content
-      >
-    </mat-card>
+    <app-card [userList]="userList$ |async"></app-card>
   </div>
 </div>

@@ -1,0 +1,12 @@
+<mat-card class="card" *ngFor="let list of userList">
+  <mat-card-content>
+    <iframe  [src]="list.url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>
+      {{ list.nome }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

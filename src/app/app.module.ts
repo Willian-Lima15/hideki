@@ -17,11 +17,13 @@ import {MatListModule} from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeModule } from './pages/home/home.module';
+import { CardComponent } from './pages/compartilhado/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
+    CardComponent
 
   ],
   imports: [

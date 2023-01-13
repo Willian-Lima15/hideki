@@ -1,0 +1,17 @@
+.container {
+    padding: 0 50px;
+  }
+  .card {
+    display: inline-block;
+    width: 20%;
+    margin: 15px;
+  }
+  
+  /* .card:hover {
+    background-color: #9e37ff;
+    margin: 5px;
+    height: 50px;
+    transition: 0.5s;
+    color: white;
+  } */
+  

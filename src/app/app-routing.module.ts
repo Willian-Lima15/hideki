@@ -11,7 +11,8 @@ const routes: Routes = [
       path: '', component: LoginComponent
     }]},
   {path:'sigup', component: SigupComponent},
-  {path:'pr',component:PrincipalComponent}
+  {path:'pr',component:PrincipalComponent},
+  
 ];
 
 @NgModule({

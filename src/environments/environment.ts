@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  //url= 'https://api-hideki-351ac-default-rtdb.firebaseio.com/'
+  apiUrl: "http://localhost:3000"
 };
 
 /*
